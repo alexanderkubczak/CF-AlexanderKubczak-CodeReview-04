@@ -1,0 +1,125 @@
+* {
+  margin: 0 auto; }
+
+/*-------------HEADER-------- */
+header {
+  width: 100%;
+  height: 10vw;
+  background-color: #000000; }
+  header .headline {
+    position: relative;
+    top: 3vw;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+
+/*---------NAV------- */
+nav {
+  width: 100%;
+  height: 5vw;
+  background-color: #434343; }
+  nav .navtext {
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    position: relative;
+    top: 1.1vw; }
+
+/*----------MAIN-------- */
+main {
+  width: 100%;
+  height: 80vw;
+  background-color: #171E25; }
+  main h1 {
+    position: relative;
+    top: 2vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 250%; }
+
+/*-----------bigboxamk------- */
+#bigbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between; }
+  #bigbox .content {
+    margin: 2vw;
+    background-color: #101010;
+    width: 40%;
+    height: 17.7vw;
+    border: 1vw transparent;
+    border-radius: 0.2vw; }
+    #bigbox .content img {
+      margin: 0 auto;
+      width: 30%;
+      height: 90%;
+      position: relative;
+      top: 0.8vw;
+      left: 0.8vw;
+      border: 1vw lightgrey;
+      border-radius: 0.3vw;
+      box-shadow: 0px 0px 5px 0px #6e6e6e; }
+    #bigbox .content .filmtitle {
+      font-weight: bold;
+      font-size: 200%;
+      width: 65%;
+      color: white;
+      position: relative;
+      bottom: 23.2vw;
+      left: 7vw; }
+    #bigbox .content .desc {
+      position: relative;
+      left: 4.2vw;
+      bottom: 22.5vw;
+      width: 50%;
+      font-size: 100%;
+      color: white; }
+    #bigbox .content .likebutton {
+      position: relative;
+      bottom: 8vw;
+      left: 12.5vw;
+      width: 28%; }
+      #bigbox .content .likebutton button {
+        font-weight: bold;
+        font-size: 150%;
+        color: #2FA33B;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none; }
+    #bigbox .content .likeamount {
+      position: relative;
+      left: 16.5vw;
+      bottom: 4vw;
+      width: 5vw;
+      height: 5vw;
+      background-color: #2FA33B;
+      text-align: center;
+      border: 0.2vw transparent;
+      border-radius: 4vw; }
+      #bigbox .content .likeamount p {
+        position: relative;
+        top: 0.4vw;
+        font-size: 300%;
+        color: white; }
+
+/*------------FOOTER--------- */
+footer {
+  width: 100%;
+  height: 10vw;
+  background-color: #000000; }
+  footer .footertext {
+    position: relative;
+    top: 4vw;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

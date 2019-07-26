@@ -1,0 +1,43 @@
+var movies = [{
+	"title": "The Lion King",
+	"genre": "Drama/Adventure/Family",
+	"release": "17th November 1994",
+	"description": "A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.",
+	"image": "img/lion.jpg",
+	"likes": 4
+}, {
+	"title": "Titanic",
+	"genre": "Drama, Romance",
+	"release": "8th January 1998",
+	"description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+	"image": "img/titanic.jpg",
+	"likes": 6
+}, {
+	"title": "Pirates of the Caribbean",
+	"genre": "Action/Adventure/Fantasy",
+	"release": "2nd September 2003",
+	"description": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+	"image": "img/pirate.jpg",
+	"likes": 8
+}, {
+	"title": "Arrival",
+	"genre": "Drama/Mystery/Sci-Fi",
+	"release": "24th November 2016",
+	"description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+	"image": "img/arrival.jpg",
+	"likes": 11
+}, {
+	"title": "Saw",
+	"genre": "Horror",
+	"release": "3rd February 2005",
+	"description": "Two strangers, who awaken in a room with no recollection of how they got there, soon discover they're pawns in a deadly game perpetrated by a notorious serial killer.",
+	"image": "img/saw.jpg",
+	"likes": 2
+}, {
+	"title": "Toy Story",
+	"genre": "Adventure/Family",
+	"release": "21st March 1996",
+	"description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+	"image": "img/toy.jpg",
+	"likes": 7
+}]
